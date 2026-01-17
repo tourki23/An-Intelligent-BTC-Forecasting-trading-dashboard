@@ -2,8 +2,10 @@
 
 🐳 Utilisation avec Docker (Recommandé)L'utilisation de Docker est la méthode la plus simple car elle contient déjà toutes les bibliothèques configurées (Python 3.10, Pandas 1.5.3, PyTorch, etc.).
 
-**Construction de l'image :** docker build -t BTC_Dashboard_final .
-**Lancement  du dashboard :** docker run -p 8501:8501 BTC_Dashboard_final 
+une fois que le clone est fait, suivez instructions suivantes :
+**Ouvrir le repertoire de l'application** : Commande bash : cd An-Intelligent-BTC-Forecasting-trading-dashboard
+**Construction de l'image docker :** Commande bash : docker build -t btc-dashboard-final .
+**Lancement  du dashboard :** Commande : docker run -p 8501:8501 btc-dashboard-final 
 **Accès:** Ouvrez votre navigateur sur http://localhost:8501
 
 📊 Gestion des DonnéesChargement par défautAu lancement, le dashboard charge automatiquement le fichier d'historique inclus :
