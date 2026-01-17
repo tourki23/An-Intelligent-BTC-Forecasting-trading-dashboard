@@ -1,0 +1,24 @@
+[theme]
+# Force le mode sombre pour éviter les problèmes de texte invisible sur fond blanc
+base="dark"
+
+# Orange officiel du Bitcoin pour les boutons, curseurs et liens
+primaryColor="#F7931A"
+
+# Couleur de fond du dashboard (Bleu très sombre/Noir)
+backgroundColor="#0E1117"
+
+# Couleur des menus latéraux et des encadrés de widgets
+secondaryBackgroundColor="#262730"
+
+# Couleur du texte (Blanc pur pour un contraste maximal)
+textColor="#FFFFFF"
+
+# Police de caractère standard et propre
+font="sans serif"
+
+[server]
+# Optimisation pour Docker : évite les notifications inutiles dans les logs
+headless = true
+enableCORS = false
+enableXsrfProtection = false
